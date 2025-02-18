@@ -56,7 +56,7 @@ This project analyzes tennis matches using computer vision and deep learning tec
 - The script processes the video frame-by-frame, detecting and tracking players and the ball.
 - The output video contains bounding boxes and tracking lines.
 - Extracted data is saved in a CSV file for further analysis.
-- 
+  
 ## Output Videos
 Here is a screenshot from one of the output videos:
 
