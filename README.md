@@ -19,8 +19,8 @@ This project analyzes tennis matches using computer vision and deep learning tec
 - **Matplotlib & Seaborn**: Data visualization.
 
 ## Models Used
--**YOLO v8 for player detection
--**Fine Tuned YOLO for tennis ball detection
+- **YOLO v8 for player detection
+- **Fine Tuned YOLO for tennis ball detection
 ## Installation
 1. Clone the repository:
    ```bash
