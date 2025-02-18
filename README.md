@@ -21,6 +21,7 @@ This project analyzes tennis matches using computer vision and deep learning tec
 ## Models Used
 - YOLO v8 for player detection
 - Fine Tuned YOLO for tennis ball detection
+- Court Key point extraction
 - Trained YOLOV5 model: https://drive.google.com/file/d/1UZwiG1jkWgce9lNhxJ2L0NVjX1vGM05U/view?usp=sharing
 - Trained tennis court key point model: https://drive.google.com/file/d/1QrTOF1ToQ4plsSZbkBs3zOLkVt3MBlta/view?usp=sharing
 
@@ -50,6 +51,12 @@ This project analyzes tennis matches using computer vision and deep learning tec
 - numpy
 - opencv
 
+## Usage
+- To analyze a match, provide an input video file.
+- The script processes the video frame-by-frame, detecting and tracking players and the ball.
+- The output video contains bounding boxes and tracking lines.
+- Extracted data is saved in a CSV file for further analysis.
+- 
 ## Output Videos
 Here is a screenshot from one of the output videos:
 
